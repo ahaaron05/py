@@ -42,9 +42,9 @@ class Game:
         """Updates main game loop and flips"""
         self.screen.fill(self.settings.screen_color)
         self.ship.blitme()
-
-        pygame.display.flip()
     
+        pygame.display.flip()
+
 
 if (__name__ == '__main__'):
     game = Game()
