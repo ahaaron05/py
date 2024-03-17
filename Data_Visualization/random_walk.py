@@ -32,7 +32,7 @@ class RandomWalk:
             self.y_values.append(y)
 
 
-rw = RandomWalk(152000)
+rw = RandomWalk(15200)
 rw.fill_walk()
 
 plt.style.use('dark_background')
